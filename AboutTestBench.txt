@@ -1,0 +1,6 @@
+GitTestBench.txt
+
+This repository is all about a safe and easy to understand repository where a developer can learn and try new commands and concepts in "git" without the concern of doing any damage on a 'real' code repository.
+
+If you are learning a new command that might have grave consequences if you make mistakes clone this repo and add a feature branch and play to your hearts content
+
