@@ -1,0 +1,54 @@
+﻿
+	TERMINOLOGY
+	-------------------------------------------------------------------
+	Tool / app	  - The CLI App. ex. git / dotnet / checkdisk etc.
+	Command   - The first level argument that identifies a verb action. ex. git add.
+		- git add
+		- dotnet new
+		- git commit
+		- netinfo help
+		- netinfo wifi
+		- netinfo nic
+
+	Subcommand - a secondary command off of the main command
+		- netinfo wifi refresh
+
+	Options		- single letter options that can be composed. ex -erfhi / --extended-run --random --force-all --help --info
+		- git commit -qv / --quiet --verbose
+		- netinfo wifi -v --verbose
+		
+	CommandArgument - an argument the be interpreted by the Command, this could be a folder or filename for example: git add "myfile.txt"
+		-git add "myfile.txt"
+		- netinfo wifi "name"
+
+
+	netinfo command subcommand [parameter] [<options>] 
+
+	STANDARD VORMAT
+	<commandName> <options> <arguments>
+
+	netinfo command [<options>] 
+
+	netinfo command
+	USAGE 	This is how you use this command
+			type in all the 
+
+	PROBLEM: You must enter a file name with that argument
+
+	ERROR: 	Stack overflow error no data was saved
+
+	HELP:
+	
+	netinfo command parameter 
+	netinfo command subcommand parameter1 parameter2 [<options>] [<arguments>]
+
+	netinfo command [<options>] [<arguments>]
+	netinfo command subcommand [<options>] 
+	netinfo command subcommand [parameter] [<options>] 
+	netinfo command [<options>] 
+	netinfo command [<options>] 
+	netinfo command [<options>] 
+
+	Examples:
+	netinfo wallet -prWl
+

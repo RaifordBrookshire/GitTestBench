@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NetInfo": {
+      "commandName": "Project",
+      "commandLineArgs": "help -h --help"
+    }
+  }
+}
